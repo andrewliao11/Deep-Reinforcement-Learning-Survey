@@ -5,7 +5,8 @@
   - [Playing Atari with Deep Reinforcement Learning](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf), Volodymyr Mnih, Koray Kavukcuoglu, David Silver. Alex Graves Ioannis Antonoglou. Daan Wierstra
   - [Human-level control through deep reinforcement learning](http://home.uchicago.edu/~arij/journalclub/papers/2015_Mnih_et_al.pdf), Nature, 2015
   - [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783), Volodymyr Mnih, Adrià Puigdomènech Badia, Mehdi Mirza, Alex Graves, Timothy P. Lillicrap, Tim Harley, David Silver, Koray Kavukcuoglu
-      - implementation from others:  [async-rl](https://github.com/muupan/async-rl)
+      - Implementation from others:  [async-rl](https://github.com/muupan/async-rl)
+      - [Asynchronous SGD](https://cxwangyi.wordpress.com/2013/04/09/why-asynchronous-sgd-works-better-than-its-synchronous-counterpart/)
   
 ## Course
   - [CS 294: Deep Reinforcement Learning, Fall 2015](http://rll.berkeley.edu/deeprlcourse/#related-materials)
