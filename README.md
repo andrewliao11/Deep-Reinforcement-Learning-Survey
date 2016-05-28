@@ -2,6 +2,8 @@
 
 ## Papers
   - [Deep Reinforcement Learning with Double Q-learning](http://arxiv.org/abs/1509.06461), Hado van Hasselt, Arthur Guez, David Silver
+      - deal with overestimation of Q-values
+      - separate action-select-Q and predict-Q 
   - [Playing Atari with Deep Reinforcement Learning](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf), Volodymyr Mnih, Koray Kavukcuoglu, David Silver. Alex Graves Ioannis Antonoglou. Daan Wierstra
   - [Human-level control through deep reinforcement learning](http://home.uchicago.edu/~arij/journalclub/papers/2015_Mnih_et_al.pdf), Nature, 2015
       - Experience replay
