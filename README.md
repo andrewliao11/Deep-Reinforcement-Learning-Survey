@@ -20,6 +20,8 @@
 ## Textbook
   - [Foundations_of_Machine_Learning](http://www.cs.nyu.edu/~mohri/mlbook/)
       - lecture 14: Reinforcement learning  
+  - 
+
 ## Useful links
   - [A collection of deep learning resources](http://www.jeremydjacksonphd.com/category/deep-learning/)
   - 
