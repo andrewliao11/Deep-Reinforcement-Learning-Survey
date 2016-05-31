@@ -19,7 +19,7 @@
   
 ## Textbook
   - [Foundations_of_Machine_Learning](http://www.cs.nyu.edu/~mohri/mlbook/)
-      - lecture 14: Reinforcement learning  
+      - chapter 14: Reinforcement learning  
   - 
 
 ## Useful links
