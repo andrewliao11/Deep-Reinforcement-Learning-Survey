@@ -1,7 +1,7 @@
 # Deep Reinforcement Learning survey
 
 ## Papers
-  - **Deep Reinforcement Learning with Double Q-learning**, Hado van Hasselt, Arthur Guez, David Silver, [[arXiv 2015]](http://arxiv.org/abs/1509.06461)
+  - **Deep Reinforcement Learning with Double Q-learning**, Hado van Hasselt, Arthur Guez, David Silver, [[AAAI 2016]](http://arxiv.org/abs/1509.06461)
       - deal with overestimation of Q-values
       - separate action-select-Q and predict-Q 
   - **Playing Atari with Deep Reinforcement Learning**, Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves Ioannis Antonoglou, Daan Wierstra [[NIPS 2013 Deep Learning Workshop]](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
@@ -9,10 +9,11 @@
       - Experience replay
       - Iterative update Q-value
       - [Source code](https://sites.google.com/a/deepmind.com/dqn)
-  - **Asynchronous Methods for Deep Reinforcement Learning**, Volodymyr Mnih, Adrià Puigdomènech Badia, Mehdi Mirza, Alex Graves, Timothy P. Lillicrap, Tim Harley, David Silver, Koray Kavukcuoglu, [[arXiv 2016]](https://arxiv.org/abs/1602.01783)
+  - **Asynchronous Methods for Deep Reinforcement Learning**, Volodymyr Mnih, Adrià Puigdomènech Badia, Mehdi Mirza, Alex Graves, Timothy P. Lillicrap, Tim Harley, David Silver, Koray Kavukcuoglu, [[ICML 2016]](https://arxiv.org/abs/1602.01783)
       - Implementation from others:  [async-rl](https://github.com/muupan/async-rl)
       - [Asynchronous SGD](https://cxwangyi.wordpress.com/2013/04/09/why-asynchronous-sgd-works-better-than-its-synchronous-counterpart/)
   - **Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection**, Sergey Levine, Peter Pastor, Alex Krizhevsky, Deirdre Quillen, [[arXiv 2016]](http://arxiv.org/abs/1603.02199)
+      - [Deep Learning for Robots: Learning from Large-Scale Interaction](https://research.googleblog.com/2016/03/deep-learning-for-robots-learning-from.html)
   - **Active Object Localization with Deep Reinforcement Learning**, Juan C. Caicedo, Svetlana Lazebnik, [[ICCV 2015]](http://arxiv.org/abs/1511.06015)
       - Agent learns to deform a bounding box using simple transformation action   
   - **Dueling Network Architectures for Deep Reinforcement Learning**, Ziyu Wang, Tom Schaul, Matteo Hessel, Hado van Hasselt, Marc Lanctot, Nando de Freitas, [[ICML 2016]](http://arxiv.org/abs/1511.06581)
