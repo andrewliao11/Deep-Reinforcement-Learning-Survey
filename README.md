@@ -36,3 +36,4 @@
 ## Useful links
   - [A collection of Deep Learning resources](http://www.jeremydjacksonphd.com/category/deep-learning/)
   - [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/), from Andrej Karpathy' blog
+  - [Guest Post (Part I): Demystifying Deep Reinforcement Learning](https://www.nervanasys.com/demystifying-deep-reinforcement-learning/)
