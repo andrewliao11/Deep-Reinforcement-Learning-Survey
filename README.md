@@ -33,6 +33,7 @@ Surely, any pull request or discussion are welcomed!
 ## Course
   - [CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/#related-materials), Instructors: John Schulman, Pieter Abbeel
   - [UC Berkeley CS188 Intro to AI](http://ai.berkeley.edu/home.html)
+      - [2013 Spring video](https://www.youtube.com/user/CS188Spring2013) on youtube   
   - [Advanced Topics: RL](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html), Instructors: David Silver
   
 ## Textbook
@@ -43,4 +44,8 @@ Surely, any pull request or discussion are welcomed!
 ## Useful links
   - [A collection of Deep Learning resources](http://www.jeremydjacksonphd.com/category/deep-learning/)
   - [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/), from Andrej Karpathy' blog
+      - policy gradient (very clear!)
   - [Guest Post (Part I): Demystifying Deep Reinforcement Learning](https://www.nervanasys.com/demystifying-deep-reinforcement-learning/)
+  - [Reinforcement Learning and Control](http://cs229.stanford.edu/notes/cs229-notes12.pdf), lecture from Andrew Ng
+      - basic reinforcement learning 
+      - continuous state MDPs
