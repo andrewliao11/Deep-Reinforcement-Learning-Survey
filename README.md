@@ -1,6 +1,6 @@
 # Deep Reinforcement Learning survey
-This paper list is a bit different from others. I'll put some opinion and summary on it.   
-However, to understand the whole paper, you still have to read it by yourself!
+This paper list is a bit different from others. I'll put some opinion and summary on it. However, to understand the whole paper, you still have to read it by yourself!   
+
 Surely, any pull request or discussion are welcomed!
 ## Papers
   - **Deep Reinforcement Learning with Double Q-learning**, Hado van Hasselt, Arthur Guez, David Silver, [[AAAI 2016]](http://arxiv.org/abs/1509.06461)
