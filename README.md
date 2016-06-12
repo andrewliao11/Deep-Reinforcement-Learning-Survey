@@ -21,6 +21,11 @@
       - Torch blog - [Dueling Deep Q-Networks](http://torch.ch/blog/2016/04/30/dueling_dqn.html)   
   - **Memory-based control with recurrent neural networks***, Nicolas Heess, Jonathan J Hunt, Timothy P Lillicrap, David Silver, [[NIPS 2015 Deep Reinforcement Learning Workshop]](http://arxiv.org/abs/1512.04455)
       - solve partially-observed problem  
+
+
+
+
+
 ## Open Source
   - [OpenAI gym](https://gym.openai.com/), RL benchmarking toolkit
 
