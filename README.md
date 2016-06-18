@@ -44,6 +44,9 @@ Surely, any pull request or discussion are welcomed!
       - [2013 Spring video](https://www.youtube.com/user/CS188Spring2013) on youtube   
   - [Advanced Topics: RL](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
       - Instructors: David Silver
+  - [Deep learning videoes at Oxford 2015](https://www.youtube.com/playlist?list=PLE6Wd9FR--EfW8dtjAuPoTuPcqmOV53Fu)
+      - Instructors: Nando de Freitas
+      - lecture 15, 16 are strongly related to reinforcement learning
   
 ## Textbook
   - [Foundations_of_Machine_Learning](http://www.cs.nyu.edu/~mohri/mlbook/)
