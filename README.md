@@ -61,3 +61,5 @@ Surely, any pull request or discussion are welcomed!
   - [Reinforcement Learning and Control](http://cs229.stanford.edu/notes/cs229-notes12.pdf), lecture from Andrew Ng
       - basic reinforcement learning 
       - continuous state MDPs
+  - [DEEP REINFORCEMENT LEARNING](https://deepmind.com/blog), from David Silver, Google DeepMind
+      - briefly discuss some work done by deepmind
