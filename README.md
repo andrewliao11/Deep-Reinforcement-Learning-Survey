@@ -29,7 +29,14 @@ Surely, any pull request or discussion are welcomed!
   - **Memory-based control with recurrent neural networks** [[NIPS 2015 Deep Reinforcement Learning Workshop]](http://arxiv.org/abs/1512.04455)
       - Nicolas Heess, Jonathan J Hunt, Timothy P Lillicrap, David Silver
       - solve partially-observed problem  
-
+  - **Control of Memory, Active Perception, and Action in Minecraft** [[arXiv 2016]](https://arxiv.org/abs/1605.09128)
+      - Junhyuk Oh, Valliappa Chockalingam, Satinder Singh, Honglak Lee
+      - solving problem concerning to partial observability
+      - propose mincraft task
+      - Memory Q-Network (MQN), Recurrent Memory Q-Network (RMQN), and Feedback Recurrent Memory Q-Network (FRMQN)
+  - **Continuous Control With Deep Reinforcement Learning** [[ICLR 2016]](http://arxiv.org/abs/1509.02971)
+      - Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra
+      - 
 
 
 
