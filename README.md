@@ -36,13 +36,15 @@ Surely, any pull request or discussion are welcomed!
       - Memory Q-Network (MQN), Recurrent Memory Q-Network (RMQN), and Feedback Recurrent Memory Q-Network (FRMQN)
   - **Continuous Control With Deep Reinforcement Learning** [[ICLR 2016]](http://arxiv.org/abs/1509.02971)
       - Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra
-      - 
+      - actor-critic algorithms
+      - introduction fully explains why we use **actor-critic algorithm**
 
 
 
 
 ## Open Source
   - [OpenAI gym](https://gym.openai.com/), RL benchmarking toolkit
+  - [rltorch](https://github.com/ludc/rltorch), basic reinforcement learning package, for Torch user
 
 ## Course
   - [CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/#related-materials)
