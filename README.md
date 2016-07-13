@@ -25,6 +25,7 @@ Surely, any pull request or discussion are welcomed!
   - **Dueling Network Architectures for Deep Reinforcement Learning** [[ICML 2016]](http://arxiv.org/abs/1511.06581)
       - Ziyu Wang, Tom Schaul, Matteo Hessel, Hado van Hasselt, Marc Lanctot, Nando de Freitas   
       - two stream network(state-value and advantage funvtion)
+      - focusing on innovating a neural network architecture that is better suited for model-free RL
       - Torch blog - [Dueling Deep Q-Networks](http://torch.ch/blog/2016/04/30/dueling_dqn.html)   
   - **Memory-based control with recurrent neural networks** [[NIPS 2015 Deep Reinforcement Learning Workshop]](http://arxiv.org/abs/1512.04455)
       - Nicolas Heess, Jonathan J Hunt, Timothy P Lillicrap, David Silver
