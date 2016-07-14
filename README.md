@@ -16,6 +16,7 @@ Surely, any pull request or discussion are welcomed!
       - Volodymyr Mnih, Adrià Puigdomènech Badia, Mehdi Mirza, Alex Graves, Timothy P. Lillicrap, Tim Harley, David Silver, Koray Kavukcuoglu 
       - Implementation from others:  [async-rl](https://github.com/muupan/async-rl)
       - [Asynchronous SGD](https://cxwangyi.wordpress.com/2013/04/09/why-asynchronous-sgd-works-better-than-its-synchronous-counterpart/)
+      - [Tuning Deep Learning Episode 1: DeepMind's A3C in Torch](http://www.allinea.com/blog/201607/tuning-deep-learning-episode-1-deepminds-a3c-torch)
   - **Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection** [[arXiv 2016]](http://arxiv.org/abs/1603.02199)
       - Sergey Levine, Peter Pastor, Alex Krizhevsky, Deirdre Quillen
       - [Deep Learning for Robots: Learning from Large-Scale Interaction](https://research.googleblog.com/2016/03/deep-learning-for-robots-learning-from.html)
