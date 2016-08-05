@@ -45,8 +45,28 @@ Surely, any pull request or discussion are welcomed!
 
 
 ## Open Source
-  - [OpenAI gym](https://gym.openai.com/), RL benchmarking toolkit
-  - [rltorch](https://github.com/ludc/rltorch), basic reinforcement learning package, for Torch user
+### Python users[Tensorflow, Theano]
+  - [OpenAI gym](https://gym.openai.com/)
+    - RL **benchmarking** toolkit
+    - Provide environment and evaluation metrics
+  - [Keras](https://github.com/matthiasplappert/keras-rl)
+    - Fully compatible with OpenAI
+    - Some algorithms have been implement(e.g DQN, DDQN, DDPG, CDQN)
+  - [TensorLayer](https://github.com/zsdonghao/tensorlayer)
+    - Built on the top of Google TensorFlow
+  - [rllab](https://github.com/rllab/rllab)
+    - Fully compatible with OpenAI 
+    - Continuous control tasks 
+    - Nice to implement new algorothms
+    - [Benchmarking Deep Reinforcement Learning for Continuous Control](https://arxiv.org/abs/1604.06778)
+  - [KEras](https://github.com/osh/kerlym)
+    - Built on keras
+    - Fully compatible with OpenAI
+    - Host a handful of agent of reinforcement learning agents
+    - [Deep Reinforcement Learning Radio Control and Signal Detection with KeRLym, a Gym RL Agent](http://arxiv.org/abs/1605.09221)
+
+### Lua users[Torch]
+  - [rltorch](https://github.com/ludc/rltorch), basic reinforcement learning package
 
 ## Course
   - [CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/#related-materials)
