@@ -64,9 +64,14 @@ Surely, any pull request or discussion are welcomed!
     - Fully compatible with OpenAI
     - Host a handful of agent of reinforcement learning agents
     - [Deep Reinforcement Learning Radio Control and Signal Detection with KeRLym, a Gym RL Agent](http://arxiv.org/abs/1605.09221)
+  - [Deep Reinforcement Learning in TensorFlow](https://github.com/carpedm20/deep-rl-tensorflow)
+    - Implemented by @carpedm20
+    - Having some basic reinforcement algorothms
 
 ### Lua users[Torch]
   - [rltorch](https://github.com/ludc/rltorch), basic reinforcement learning package
+  - [awesome-torch for reinforcement learning](https://github.com/carpedm20/awesome-torch#reinforcement-learning)
+    - List of open sources for rerinforcement learning 
 
 ## Course
   - [CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/#related-materials)
