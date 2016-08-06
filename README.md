@@ -9,6 +9,7 @@ Surely, any pull request or discussion are welcomed!
   - ***Playing Atari with Deep Reinforcement Learning*** [[NIPS 2013 Deep Learning Workshop]](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
       - Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves Ioannis Antonoglou, Daan Wierstra  
   - ***Human-level control through deep reinforcement learning***, [[Nature 2015]](http://home.uchicago.edu/~arij/journalclub/papers/2015_Mnih_et_al.pdf)
+      - Most optimization algorithms assume that the samples are independently and identically distributed, while for reinforcement learning, the data is a sequence of action, which breaks the assumption.
       - Experience replay
       - Iterative update Q-value
       - [Source code [Torch]](https://sites.google.com/a/deepmind.com/dqn)
@@ -39,8 +40,10 @@ Surely, any pull request or discussion are welcomed!
   - ***Continuous Control With Deep Reinforcement Learning*** [[ICLR 2016]](http://arxiv.org/abs/1509.02971)
       - Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra
       - Solves the continuous control task, and avoids the curse of **dimension**
-      - Actor-critic algorithms
-      - Introduction section fully explains why we use **actor-critic algorithm**
+      - **Deep** version of DPG(deterministic policy gradient)
+      - When going deep, some issue will happens. It's unstable to use the non-linear function to approxiamate 
+      - The different components of the observation may have different physical units and the ranges may vary across environments. => solve by batch normalization
+      - For exploration, adding the noise to the actor policy: µ0(st) = µ(st|θt µ) + N
 
 ## Open Source
 ### Python users[Tensorflow, Theano]
