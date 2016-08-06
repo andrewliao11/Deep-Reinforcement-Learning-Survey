@@ -1,6 +1,16 @@
 # Deep Reinforcement Learning survey
 This paper list is a bit different from others. I'll put some opinion and summary on it. However, to understand the whole paper, you still have to read it by yourself!   
 Surely, any pull request or discussion are welcomed!
+
+## Outline
+- [Papers](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey#papers)
+- [Open Source](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey#open-source)
+- [Courses](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey#course)
+  - Python users
+  - Lua users
+- [Textbook](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey#textbook)
+- [Useful link](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey#useful-links)
+
 ## Papers
   - ***Deep Reinforcement Learning with Double Q-learning*** [[AAAI 2016]](http://arxiv.org/abs/1509.06461)
       - Hado van Hasselt, Arthur Guez, David Silver 
