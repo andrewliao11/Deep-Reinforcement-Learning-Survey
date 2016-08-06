@@ -2,47 +2,45 @@
 This paper list is a bit different from others. I'll put some opinion and summary on it. However, to understand the whole paper, you still have to read it by yourself!   
 Surely, any pull request or discussion are welcomed!
 ## Papers
-  - **Deep Reinforcement Learning with Double Q-learning** [[AAAI 2016]](http://arxiv.org/abs/1509.06461)
+  - ***Deep Reinforcement Learning with Double Q-learning*** [[AAAI 2016]](http://arxiv.org/abs/1509.06461)
       - Hado van Hasselt, Arthur Guez, David Silver 
-      - deal with overestimation of Q-values
-      - separate action-select-Q and predict-Q 
-  - **Playing Atari with Deep Reinforcement Learning** [[NIPS 2013 Deep Learning Workshop]](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
+      - Deal with overestimation of Q-values
+      - Separate action-select-Q and predict-Q 
+  - ***Playing Atari with Deep Reinforcement Learning*** [[NIPS 2013 Deep Learning Workshop]](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
       - Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves Ioannis Antonoglou, Daan Wierstra  
-  - **Human-level control through deep reinforcement learning**, [[Nature 2015]](http://home.uchicago.edu/~arij/journalclub/papers/2015_Mnih_et_al.pdf)
+  - ***Human-level control through deep reinforcement learning***, [[Nature 2015]](http://home.uchicago.edu/~arij/journalclub/papers/2015_Mnih_et_al.pdf)
       - Experience replay
       - Iterative update Q-value
-      - [Source code](https://sites.google.com/a/deepmind.com/dqn)
-  - **Asynchronous Methods for Deep Reinforcement Learning** [[ICML 2016]](https://arxiv.org/abs/1602.01783)
+      - [Source code [Torch]](https://sites.google.com/a/deepmind.com/dqn)
+  - ***Asynchronous Methods for Deep Reinforcement Learning*** [[ICML 2016]](https://arxiv.org/abs/1602.01783)
       - Volodymyr Mnih, Adrià Puigdomènech Badia, Mehdi Mirza, Alex Graves, Timothy P. Lillicrap, Tim Harley, David Silver, Koray Kavukcuoglu 
       - Implementation from others:  [async-rl](https://github.com/muupan/async-rl)
       - [Asynchronous SGD](https://cxwangyi.wordpress.com/2013/04/09/why-asynchronous-sgd-works-better-than-its-synchronous-counterpart/)
       - [Tuning Deep Learning Episode 1: DeepMind's A3C in Torch](http://www.allinea.com/blog/201607/tuning-deep-learning-episode-1-deepminds-a3c-torch)
-  - **Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection** [[arXiv 2016]](http://arxiv.org/abs/1603.02199)
+  - ***Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection*** [[arXiv 2016]](http://arxiv.org/abs/1603.02199)
       - Sergey Levine, Peter Pastor, Alex Krizhevsky, Deirdre Quillen
       - [Deep Learning for Robots: Learning from Large-Scale Interaction](https://research.googleblog.com/2016/03/deep-learning-for-robots-learning-from.html)
-  - **Active Object Localization with Deep Reinforcement Learning** [[ICCV 2015]](http://arxiv.org/abs/1511.06015)
+  - ***Active Object Localization with Deep Reinforcement Learning*** [[ICCV 2015]](http://arxiv.org/abs/1511.06015)
       - Juan C. Caicedo, Svetlana Lazebnik
       - Agent learns to deform a bounding box using simple transformation action   
-  - **Dueling Network Architectures for Deep Reinforcement Learning** [[ICML 2016]](http://arxiv.org/abs/1511.06581)
+  - ***Dueling Network Architectures for Deep Reinforcement Learning*** [[ICML 2016]](http://arxiv.org/abs/1511.06581)
       - Ziyu Wang, Tom Schaul, Matteo Hessel, Hado van Hasselt, Marc Lanctot, Nando de Freitas   
-      - two stream network(state-value and advantage funvtion)
-      - focusing on innovating a neural network architecture that is better suited for model-free RL
+      - Two stream network(state-value and advantage funvtion)
+      - Focusing on innovating a neural network architecture that is better suited for model-free RL
       - Torch blog - [Dueling Deep Q-Networks](http://torch.ch/blog/2016/04/30/dueling_dqn.html)   
-  - **Memory-based control with recurrent neural networks** [[NIPS 2015 Deep Reinforcement Learning Workshop]](http://arxiv.org/abs/1512.04455)
+  - ***Memory-based control with recurrent neural networks*** [[NIPS 2015 Deep Reinforcement Learning Workshop]](http://arxiv.org/abs/1512.04455)
       - Nicolas Heess, Jonathan J Hunt, Timothy P Lillicrap, David Silver
-      - solve partially-observed problem  
-  - **Control of Memory, Active Perception, and Action in Minecraft** [[arXiv 2016]](https://arxiv.org/abs/1605.09128)
+      - Solve partially-observed problem  
+  - ***Control of Memory, Active Perception, and Action in Minecraft*** [[arXiv 2016]](https://arxiv.org/abs/1605.09128)
       - Junhyuk Oh, Valliappa Chockalingam, Satinder Singh, Honglak Lee
-      - solving problem concerning to partial observability
-      - propose mincraft task
+      - Solving problem concerning to partial observability
+      - Propose mincraft task
       - Memory Q-Network (MQN), Recurrent Memory Q-Network (RMQN), and Feedback Recurrent Memory Q-Network (FRMQN)
-  - **Continuous Control With Deep Reinforcement Learning** [[ICLR 2016]](http://arxiv.org/abs/1509.02971)
+  - ***Continuous Control With Deep Reinforcement Learning*** [[ICLR 2016]](http://arxiv.org/abs/1509.02971)
       - Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra
-      - actor-critic algorithms
-      - introduction fully explains why we use **actor-critic algorithm**
-
-
-
+      - Solves the continuous control task, and avoids the curse of **dimension**
+      - Actor-critic algorithms
+      - Introduction section fully explains why we use **actor-critic algorithm**
 
 ## Open Source
 ### Python users[Tensorflow, Theano]
