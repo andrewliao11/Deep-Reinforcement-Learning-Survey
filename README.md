@@ -51,9 +51,13 @@ Surely, any pull request or discussion are welcomed!
       - Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, Daan Wierstra
       - Solves the continuous control task, and avoids the curse of **dimension**
       - **Deep** version of DPG(deterministic policy gradient)
-      - When going deep, some issue will happens. It's unstable to use the non-linear function to approxiamate 
+      - When going deep, some issues will happens. It's unstable to use the non-linear function to approxiamate 
       - The different components of the observation may have different physical units and the ranges may vary across environments. => solve by batch normalization
       - For exploration, adding the noise to the actor policy: µ0(st) = µ(st|θt µ) + N
+  - ***[Deterministic Policy Gradient Algorithms]*** [[ICML 2014]](http://jmlr.org/proceedings/papers/v32/silver14.pdf)
+      - D. Silver, G. Lever, N. Heess, T. Degris, D. Wierstra, M. Riedmiller
+      - **Highly recommended for learning policy network, and actor-critic algorithms**
+      - In continuous action spaces, greedy policy improvement becomes problematic, requiring a global maximisation at every step. Instead, a simple and computationally attractive alternative is to move the policy in the direction of the gradient of Q, rather than globally maximising Q
 
 ## Open Source
 ### Python users[Tensorflow, Theano]
