@@ -54,7 +54,7 @@ Surely, any pull request or discussion are welcomed!
       - When going deep, some issues will happens. It's unstable to use the non-linear function to approxiamate 
       - The different components of the observation may have different physical units and the ranges may vary across environments. => solve by batch normalization
       - For exploration, adding the noise to the actor policy: µ0(st) = µ(st|θt µ) + N
-  - ***[Deterministic Policy Gradient Algorithms]*** [[ICML 2014]](http://jmlr.org/proceedings/papers/v32/silver14.pdf)
+  - ***Deterministic Policy Gradient Algorithms*** [[ICML 2014]](http://jmlr.org/proceedings/papers/v32/silver14.pdf)
       - D. Silver, G. Lever, N. Heess, T. Degris, D. Wierstra, M. Riedmiller
       - **Highly recommended for learning policy network, and actor-critic algorithms**
       - In continuous action spaces, greedy policy improvement becomes problematic, requiring a global maximisation at every step. Instead, a simple and computationally attractive alternative is to move the policy in the direction of the gradient of Q, rather than globally maximising Q
