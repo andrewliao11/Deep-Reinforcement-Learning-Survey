@@ -9,7 +9,7 @@ Surely, any pull request or discussion are welcomed!
   - Python users
   - Lua users
 - [Textbook](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey#textbook)
-- [Useful link](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey#useful-links)
+- [Misc](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey#misc)
 
 ## Papers
   - ***Deep Reinforcement Learning with Double Q-learning*** [[AAAI 2016]](http://arxiv.org/abs/1509.06461)
@@ -104,7 +104,7 @@ Surely, any pull request or discussion are welcomed!
       - chapter 14: Reinforcement learning  
    
   
-## Useful links
+## Misc
   - [A collection of Deep Learning resources](http://www.jeremydjacksonphd.com/category/deep-learning/)
   - [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/), from Andrej Karpathy' blog
       - policy gradient (very clear!)
@@ -114,3 +114,7 @@ Surely, any pull request or discussion are welcomed!
       - continuous state MDPs
   - [DEEP REINFORCEMENT LEARNING](https://deepmind.com/blog), from David Silver, Google DeepMind
       - briefly discuss some work done by deepmind
+  - [What are the benefits of actor/critic framework in reinforcement learning?](https://www.quora.com/What-are-the-benefits-of-actor-critic-framework-in-reinforcement-learning)
+      - Clearly expain the advantages of actor/critic 
+
+
