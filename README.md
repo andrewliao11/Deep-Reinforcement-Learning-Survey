@@ -20,28 +20,32 @@ Surely, any pull request or discussion are welcomed!
       - Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves Ioannis Antonoglou, Daan Wierstra  
   - ***Human-level control through deep reinforcement learning***, [[Nature 2015]](http://home.uchicago.edu/~arij/journalclub/papers/2015_Mnih_et_al.pdf)
       - Most optimization algorithms assume that the samples are independently and identically distributed, while for reinforcement learning, the data is a sequence of action, which breaks the assumption.
-      - Experience replay
+      - Experience replay(off-policy)
       - Iterative update Q-value
       - [Source code [Torch]](https://sites.google.com/a/deepmind.com/dqn)
   - ***Asynchronous Methods for Deep Reinforcement Learning*** [[ICML 2016]](https://arxiv.org/abs/1602.01783)
       - Volodymyr Mnih, Adrià Puigdomènech Badia, Mehdi Mirza, Alex Graves, Timothy P. Lillicrap, Tim Harley, David Silver, Koray Kavukcuoglu 
+      - On-policy updates
       - Implementation from others:  [async-rl](https://github.com/muupan/async-rl)
-      - [Asynchronous SGD](https://cxwangyi.wordpress.com/2013/04/09/why-asynchronous-sgd-works-better-than-its-synchronous-counterpart/)
+      - [Asynchronous SGD](https://cxwangyi.wordpress.com/2013/04/09/why-asynchronous-sgd-works-better-than-its-synchronous-counterpart/), explain what "asynchronous" means. 
       - [Tuning Deep Learning Episode 1: DeepMind's A3C in Torch](http://www.allinea.com/blog/201607/tuning-deep-learning-episode-1-deepminds-a3c-torch)
   - ***Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection*** [[arXiv 2016]](http://arxiv.org/abs/1603.02199)
       - Sergey Levine, Peter Pastor, Alex Krizhevsky, Deirdre Quillen
       - [Deep Learning for Robots: Learning from Large-Scale Interaction](https://research.googleblog.com/2016/03/deep-learning-for-robots-learning-from.html)
   - ***Active Object Localization with Deep Reinforcement Learning*** [[ICCV 2015]](http://arxiv.org/abs/1511.06015)
       - Juan C. Caicedo, Svetlana Lazebnik
-      - Agent learns to deform a bounding box using simple transformation action   
+      - Agent learns to deform a bounding box using simple transformation action(map the object detection task to RL)   
+      - Ideas similar to [G-CNN: an Iterative Grid Based Object Detector](http://arxiv.org/abs/1512.07729)
   - ***Dueling Network Architectures for Deep Reinforcement Learning*** [[ICML 2016]](http://arxiv.org/abs/1511.06581)
-      - Ziyu Wang, Tom Schaul, Matteo Hessel, Hado van Hasselt, Marc Lanctot, Nando de Freitas   
+      - Ziyu Wang, Tom Schaul, Matteo Hessel, Hado van Hasselt, Marc Lanctot, Nando de Freitas
+      - Best Paper in ICML 2016
+      - Pose the question: Is conventional CNN suitable for RL tasks?
       - Two stream network(state-value and advantage funvtion)
       - Focusing on innovating a neural network architecture that is better suited for model-free RL
       - Torch blog - [Dueling Deep Q-Networks](http://torch.ch/blog/2016/04/30/dueling_dqn.html)   
   - ***Memory-based control with recurrent neural networks*** [[NIPS 2015 Deep Reinforcement Learning Workshop]](http://arxiv.org/abs/1512.04455)
       - Nicolas Heess, Jonathan J Hunt, Timothy P Lillicrap, David Silver
-      - Solve partially-observed problem  
+      - Use RNN to solve partially-observed problem  
   - ***Control of Memory, Active Perception, and Action in Minecraft*** [[arXiv 2016]](https://arxiv.org/abs/1605.09128)
       - Junhyuk Oh, Valliappa Chockalingam, Satinder Singh, Honglak Lee
       - Solving problem concerning to partial observability
