@@ -62,6 +62,14 @@ Surely, any pull request or discussion are welcomed!
       - D. Silver, G. Lever, N. Heess, T. Degris, D. Wierstra, M. Riedmiller
       - **Highly recommended for learning policy network, and actor-critic algorithms**
       - In continuous action spaces, greedy policy improvement becomes problematic, requiring a global maximisation at every step. Instead, a simple and computationally attractive alternative is to move the policy in the direction of the gradient of Q, rather than globally maximising Q
+  - ***Mastering the game of Go with deep neural networks and tree search*** [[Nature 2016]](https://vk.com/doc-44016343_437229031?dl=56ce06e325d42fbc72)
+      - David Silver, Aja Huang 
+      - First stage: supervised learning policy network, including rollout policy and SL policy network(learn the knowledge from human experts)
+        -  Rollout policy is used for predicting **fast** but relatively inaccurate decision
+        -  SL policy network is used for initialization of RL policy network(improved by policy gradient) 
+      - To prevent overfit, auto-generate the sample from self-play(half) and train with the KGS dataset(half)
+      - Use Monte Carlo tree search with policy network and value network. To understand the MCTS more, plz refer to [here](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search#Principle_of_operation)
+      - 
 
 ## Open Source
 ### Python users[Tensorflow, Theano]
