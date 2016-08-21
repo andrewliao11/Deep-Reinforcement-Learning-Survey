@@ -20,6 +20,7 @@ Surely, any pull request or discussion are welcomed!
       - Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves Ioannis Antonoglou, Daan Wierstra  
   - ***Human-level control through deep reinforcement learning***, [[Nature 2015]](http://home.uchicago.edu/~arij/journalclub/papers/2015_Mnih_et_al.pdf)
       - Most optimization algorithms assume that the samples are independently and identically distributed, while for reinforcement learning, the data is a sequence of action, which breaks the assumption.
+      - Strong correlation btn data => break the assumption of stochastic gradient-based algorithms(re-sampling)
       - Experience replay(off-policy)
       - Iterative update Q-value
       - [Source code [Torch]](https://sites.google.com/a/deepmind.com/dqn)
@@ -73,7 +74,12 @@ Surely, any pull request or discussion are welcomed!
         - Expansion: after L steps, create a new child
         - Evaluation: evaluated by the mixture of value network and simulated rollout
         - Backup: Calculate and store the Q(s,a), N(s,a), which is used in Selection
-      
+  - ***Prioritized Experience Replay*** [[ICML 2016]](http://arxiv.org/abs/1511.05952)
+      -  Tom Schaul, John Quan, Ioannis Antonoglou, David Silver
+      -  Use prioritized sampling rather than uniformly sampling
+      -  Use transition’s TD error δ, which indicates how **"surprising" or "unexpected" the transition is**
+      -  Alleviate the loss of diversity with stochastic prioritization, and introduce bias
+      -  Stochastic Prioritization: mixture of pure greedy prioritization and uniform random sampling
 
 ## Open Source
 ### Python users[Tensorflow, Theano]
