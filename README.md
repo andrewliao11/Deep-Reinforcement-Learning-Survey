@@ -89,6 +89,7 @@ Due to the recent surge of generative model, I decide to share some survey on ge
   - Scenario: The generative model can be thought of as analogous to a team of counterfeiters, trying to produce fake currency and use it without detection, while the discriminative model is analogous to the police, trying to detect the counterfeit currency.
   - In other words, D and G play the following two-player minimax game with value function
   - Nice post from Eric Jang, [Generative Adversarial Nets in TensorFlow](http://blog.evjang.com/2016/06/generative-adversarial-nets-in.html)
+  - Another post about GAN: [Generating Faces with Torch](http://torch.ch/blog/2015/11/13/gan.html)
 - ***Deep multi-scale video prediction beyond mean square error*** [[ICLR 2016]](https://arxiv.org/abs/1511.05440)
   - Original work only use MSECritetrion to minimize the L2(L1) distance, which induce the blurring output. This work propose the GDL (gradient difference loss), which aims to keep the sharp aprt of the image.
   - Adversial training: create two networks(Discriminative ,Generative model). The goals of D is to discriminate whether the image is fake or not. The goals of G is to generate the image not to discriminated by D. => Adversial
