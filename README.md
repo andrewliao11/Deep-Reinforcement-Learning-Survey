@@ -93,6 +93,14 @@ Surely, any pull request or discussion are welcomed!
 ## Generative Model
 Due to the recent surge of generative model, I decide to share some survey on generative model here. The generative model is potentially beneficial to the exploration in reinforcement learning. Here's te [article](https://openai.com/blog/generative-models/) OpenAI talked about Generative Model.
 
+- ***Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks*** [[ICLR 2016]](https://arxiv.org/abs/1511.06434)
+  - Alec Radford, Luke Metz, Soumith Chintala
+  - Explore the extension of models for deeper generative model
+    - all-convolutional layers: to learn upsampling itself
+    - eleminate the fully connected layer: increase the model stability but hurt convergence speed
+    - use batchnorm: get deep generator to begin learning, preventing from collapsing all sample to single point
+    - ReLU activation: for generator, it helps to converge faster and cover the color space. for discriminator, use leaky ReLU
+  - 
 - ***Generative Adversarial Networks*** [[NIPS 2014]](https://arxiv.org/abs/1406.2661)
   - Scenario: The generative model can be thought of as analogous to a team of counterfeiters, trying to produce fake currency and use it without detection, while the discriminative model is analogous to the police, trying to detect the counterfeit currency.
   - In other words, D and G play the following two-player minimax game with value function
