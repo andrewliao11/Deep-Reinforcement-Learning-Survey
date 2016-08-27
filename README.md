@@ -81,6 +81,14 @@ Surely, any pull request or discussion are welcomed!
       -  Use transition’s TD error δ, which indicates how **"surprising" or "unexpected" the transition is**
       -  Alleviate the loss of diversity with stochastic prioritization, and introduce bias
       -  Stochastic Prioritization: mixture of pure greedy prioritization and uniform random sampling
+  - ***Deep Successor Reinforcement Learning*** [[arXiv 2016]](https://arxiv.org/abs/1606.02396)
+      - Tejas D. Kulkarni, Ardavan Saeedi, Simanta Gautam, Samuel J. Gershman
+      - Successor Representation(SR): decomposed the value into successor map and reward predictor (the definition of the components in successor representation should be referred to section 3.2)
+      - Advantage1: increase the sensitivityof the environment changes, since it records the immediate reward in each state. In DQN, we only record(or predict) the accumulated reward, so the sudden change of reward will be diluted. However, the SR mehtod records the reward in each state: R(s), which enable it to be more sensitive to the change of environment.
+      - Advantage2: able to extract the bottleneck states(subgoals). Since we predict the successor map (the predicted visit count), the state with higher visit count is likely to be bottleneck 
+      - Section 3.3 is a little tricky. The m_sa represents the **feature of the future occupancy**, so m_sa×W becomes the future accumulated reward (Q-value). The ∅(s)×W is the **immediate reward**. Therefore, m_sa = φ(s) + γE[m_st+1a'] -> eq.6
+
+
 
 ## Generative Model
 Due to the recent surge of generative model, I decide to share some survey on generative model here. The generative model is potentially beneficial to the exploration in reinforcement learning. Here's te [article](https://openai.com/blog/generative-models/) OpenAI talked about Generative Model.
