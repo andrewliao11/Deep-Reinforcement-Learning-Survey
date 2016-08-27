@@ -1,6 +1,7 @@
 # Reinforcement learning Papers
 ***Mistakes teach us to clarify what we really want and how we want to live.*** That's the spirit of reinforcement 
-learning, learning from the mistakes. Let's be the explorer in reinforcement learning
+learning: learning from the mistakes. Let's be the explorer in reinforcement learning!
+
 - ***Deep Reinforcement Learning with Double Q-learning*** [[AAAI 2016]](http://arxiv.org/abs/1509.06461)
   - Hado van Hasselt, Arthur Guez, David Silver 
   - Deal with overestimation of Q-values
