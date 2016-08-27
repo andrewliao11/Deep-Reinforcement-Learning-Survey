@@ -3,7 +3,7 @@ This paper list is a bit different from others. I'll put some opinion and summar
 Surely, any pull request or discussion are welcomed!
 
 ## Outline
-- [Papers](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/rl_papers.md)
+- [Reinforcement Learning Papers](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/rl_papers.md)
 - [Generative Model](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/generative_model.md)
 - [Open Source](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/misc.md#open-source)
   - Python users
