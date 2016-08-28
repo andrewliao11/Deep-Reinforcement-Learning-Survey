@@ -8,7 +8,8 @@ Due to the recent surge of generative model, I decide to share some survey on ge
     - eleminate the fully connected layer: increase the model stability but hurt convergence speed
     - use batchnorm: get deep generator to begin learning, preventing from collapsing all sample to single point
     - ReLU activation: for generator, it helps to converge faster and cover the color space. for discriminator, use leaky ReLU
-  - 
+  - Want the model to generalize instead of memorize
+  - Use the discriminator as feature extractor (laerned unsupervised) and apply it to supervised laerning task. This produces comparable results
 - ***Generative Adversarial Networks*** [[NIPS 2014]](https://arxiv.org/abs/1406.2661)
   - Scenario: The generative model can be thought of as analogous to a team of counterfeiters, trying to produce fake currency and use it without detection, while the discriminative model is analogous to the police, trying to detect the counterfeit currency.
   - In other words, D and G play the following two-player minimax game with value function
