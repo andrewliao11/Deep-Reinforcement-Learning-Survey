@@ -8,6 +8,7 @@ Due to the recent surge of generative model, I decide to share some survey on ge
     - eleminate the fully connected layer: increase the model stability but hurt convergence speed
     - use batchnorm: get deep generator to begin learning, preventing from collapsing all sample to single point
     - ReLU activation: for generator, it helps to converge faster and cover the color space. for discriminator, use leaky ReLU
+  - Fractionally-strided convolution instead of deconvolution. To see how fractionally-strided conv is, here's the [link](https://github.com/vdumoulin/conv_arithmetic)
   - Want the model to generalize instead of memorize
   - Use the discriminator as feature extractor (laerned unsupervised) and apply it to supervised laerning task. This produces comparable results
 - ***Generative Adversarial Networks*** [[NIPS 2014]](https://arxiv.org/abs/1406.2661)
