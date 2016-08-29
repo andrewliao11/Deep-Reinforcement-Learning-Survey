@@ -3,13 +3,13 @@ This paper list is a bit different from others. I'll put some opinion and summar
 Surely, any pull request or discussion are welcomed!
 
 ## Outline
-- [Reinforcement Learning Papers](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/rl_papers.md)
-- [Open Source](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/misc.md#open-source)
+- [Reinforcement Learning Papers](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/tree/master#reinforcement-learning-papers)
+- [Open Source](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/tree/master#open-source)
   - Python users
   - Lua users
-- [Courses](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/misc.md#course)
-- [Textbook](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/misc.md#textbook)
-- [Misc](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/misc.md#misc)
+- [Courses](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/tree/master#course)
+- [Textbook](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/tree/master#textbook)
+- [Misc](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/tree/master#misc)
 
 ## Reinforcement learning Papers
 ***Mistakes teach us to clarify what we really want and how we want to live.*** That's the spirit of reinforcement 
