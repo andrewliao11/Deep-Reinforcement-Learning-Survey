@@ -1,5 +1,5 @@
 ## Generative Model
-Due to the recent surge of generative model, I decide to share some survey on generative model here. The generative model is potentially beneficial to the exploration in reinforcement learning. Here's te [article](https://openai.com/blog/generative-models/) OpenAI talked about Generative Model.
+Due to the recent surge of generative model, I decide to share some survey on generative model here. The generative model is potentially beneficial to the exploration in reinforcement learning. Here's te [article](https://openai.com/blog/generative-models/) OpenAI talked about Generative Model.   
 
 - ***Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks*** [[ICLR 2016]](https://arxiv.org/abs/1511.06434)
   - Alec Radford, Luke Metz, Soumith Chintala
@@ -22,4 +22,7 @@ Due to the recent surge of generative model, I decide to share some survey on ge
   - Use **Multi-scale architecture** to solve the limitation of convolution (kernel size is limited, eg. 3*3)
   - Still immature. Used in UCF101 dataset, due to the fixed background
 
+## Recommended Post  
+- [What are some recent and potentially upcoming breakthroughs in deep learning?](https://www.quora.com/What-are-some-recent-and-potentially-upcoming-breakthroughs-in-deep-learning/answer/Yann-LeCun?srid=nZuy), written by Yann LeCun
+- [Image Completion with Deep Learning in TensorFlow](http://bamos.github.io/2016/08/09/deep-completion/), from Brandon Amos
 - [The application of generative model](https://openai.com/blog/generative-models/#going-forward), from OpenAI
