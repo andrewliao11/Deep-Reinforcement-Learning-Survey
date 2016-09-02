@@ -16,7 +16,7 @@ Surely, any pull request or discussion are welcomed!
 learning: learning from the mistakes. Let's be the explorer in reinforcement learning!
 
 - ***Action-Conditional Video Prediction using Deep Networks in Atari Games*** [[NIPS 2015]](http://arxiv.org/abs/1507.08750)
-  - Junhyuk Oh, Xiaoxiao Guo, Honglak Lee, Richard Lewis, Satinder Singh
+  - Junhyuk Oh, Xiaoxiao Guo, Honglak Lee, Richard Lewis, Satinder Singh, [[project page]](https://sites.google.com/a/umich.edu/junhyuk-oh/action-conditional-video-prediction)
   - Long-term predictions on Atari games conditional on the action
   - Using the predicted frame (more informative) to replace the exploration to improve the model-free controller
   - Multiplicative Action-Conditional Transformation: if use ont-hot to represent the action :point_right: each matrix correspond to a transformation matrix
