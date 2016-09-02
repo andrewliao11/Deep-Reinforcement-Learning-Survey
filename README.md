@@ -116,7 +116,7 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
     - Backup: Calculate and store the Q(s,a), N(s,a), which is used in Selection
 
 ## Open Source
-### Python users[Tensorflow, Theano]
+### :snake: Python users[Tensorflow, Theano]
   - [OpenAI gym](https://gym.openai.com/)
     - RL **benchmarking** toolkit
     - Provide environment and evaluation metrics
@@ -139,7 +139,7 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
     - Implemented by @carpedm20
     - Having some basic reinforcement algorothms
 
-### Lua users[Torch]
+### :fire: Lua users[Torch]
   - [rltorch](https://github.com/ludc/rltorch), basic reinforcement learning package
   - [awesome-torch for reinforcement learning](https://github.com/carpedm20/awesome-torch#reinforcement-learning)
     - List of open sources for rerinforcement learning 
