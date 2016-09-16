@@ -115,6 +115,10 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
     - Evaluation: evaluated by the mixture of value network and simulated rollout
     - Backup: Calculate and store the Q(s,a), N(s,a), which is used in Selection
 
+## Suggest Paper
+- ***Episodic Exploration for Deep Deterministic Policies: An Application to StarCraft Micromanagement Tasks*** [[arXiv 2016]](http://arxiv.org/abs/1609.02993)
+  - Nicolas Usunier, Gabriel Synnaeve, Zeming Lin, Soumith Chintala
+  
 ## Open Source
 ### :snake: Python users[Tensorflow, Theano]
   - [OpenAI gym](https://gym.openai.com/)
