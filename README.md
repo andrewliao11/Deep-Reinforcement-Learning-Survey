@@ -146,10 +146,13 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
     - Implemented by @carpedm20
     - Having some basic reinforcement algorothms
 
-### :fire: Lua users[Torch]
+### :flashlight: Lua users[Torch]
   - [rltorch](https://github.com/ludc/rltorch), basic reinforcement learning package
   - [awesome-torch for reinforcement learning](https://github.com/carpedm20/awesome-torch#reinforcement-learning)
     - List of open sources for rerinforcement learning 
+  - [torch-twrl](https://github.com/twitter/torch-twrl), maintained by twitter
+    - [Reinforcement Learning for Torch: Introducing torch-twrl](https://blog.twitter.com/2016/reinforcement-learning-for-torch-introducing-torch-twrl)
+
 
 ## Course
   - [CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/#related-materials)
