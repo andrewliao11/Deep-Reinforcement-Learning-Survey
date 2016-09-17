@@ -102,10 +102,15 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
   - For exploration, adding the noise to the actor policy: µ0(st) = µ(st|θt µ) + N
 - ***Deterministic Policy Gradient Algorithms*** [[ICML 2014]](http://jmlr.org/proceedings/papers/v32/silver14.pdf)
   - D. Silver, G. Lever, N. Heess, T. Degris, D. Wierstra, M. Riedmiller
-  - **Highly recommended for learning policy network, and actor-critic algorithms**
+  - The deterministic policy gradient is just a special case for stochastic policy gradient
+  - **Problem of stochastic policy gradient**: as the policy become more and more deterministic, the variance of the policy gradient become larger an larger. Finally, become two delta function :point_right: end up computing the gradient of Q 
+  - The stochatic policy gradient ends up calculating the gradient of Q(s,a), a is the mean mean of the policy(assume that the policy is a normal distribution)
+  - Intuition: update policy in the direction that ***most improve Q***
+  - The trade-off of determinisitic policy: exploration :point_right: off-policy deterministic actor-critic (exploration in Q-learning)
   - In continuous action spaces, greedy policy improvement becomes problematic, requiring a global maximisation at
       every step. Instead, a simple and computationally attractive alternative is to move the policy in the direction 
       of the gradient of Q, rather than globally maximising Q
+  - David Silver's talk about [deterministic policy gradient](http://techtalks.tv/talks/deterministic-policy-gradient-algorithms/61098/) in ICML :point_right: very clear!
 - ***Mastering the game of Go with deep neural networks and tree search*** [[Nature 2016]](https://vk.com/doc-44016343_437229031?dl=56ce06e325d42fbc72)
   - David Silver, Aja Huang 
   - First stage: supervised learning policy network, including rollout policy and SL policy network(learn the knowledge from human experts)
