@@ -18,7 +18,7 @@ If you're a newbie in deep reinforcement learning, I suggest you to read the blo
 ***Mistakes teach us to clarify what we really want and how we want to live.*** That's the spirit of reinforcement 
 learning: learning from the mistakes. Let's be the explorer in reinforcement learning!
 
-- ***Episodic Exploration for Deep Deterministic Policies: An Application to StarCraft Micromanagement Tasks*** [[arXiv 2016]](http://arxiv.org/abs/1609.02993)
+- ***Episodic Exploration for Deep Deterministic Policies: An Application to StarCraft Micromanagement Tasks*** [[arXiv 2016]](http://arxiv.org/abs/1609.02993) [ONGOING]
   - Nicolas Usunier, Gabriel Synnaeve, Zeming Lin, Soumith Chintala
   - StarCraft task: control of multiple agents, low-level control, partially observable environment :point_right: extremely large state/action space
 - ***Deterministic Policy Gradient Algorithms*** [[ICML 2014]](http://jmlr.org/proceedings/papers/v32/silver14.pdf)
@@ -188,5 +188,5 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
       - briefly discuss some work done by deepmind
   - [What are the benefits of actor/critic framework in reinforcement learning?](https://www.quora.com/What-are-the-benefits-of-actor-critic-framework-in-reinforcement-learning)
       - Clearly expain the advantages of actor/critic 
-  - [Deep Reinforcement Learning: A Tutorial](https://gym.openai.com/docs/rl)
+  - [Deep Reinforcement Learning: A Tutorial](https://gym.openai.com/docs/rl), from OpenAI
       - It's good to be a kick-off for newbie in reinforcement learning 
