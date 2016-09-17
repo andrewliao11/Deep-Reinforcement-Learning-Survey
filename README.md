@@ -2,6 +2,9 @@
 This paper list is a bit different from others. I'll put some opinion and summary on it. However, to understand the whole paper, you still have to read it by yourself!   
 Surely, any pull request or discussion are welcomed!
 
+## Before Jump into Deep Reinforcement Learning
+If you're a newbie in deep reinforcement learning, I suggest you to read the blog post and open course first.
+
 ## Outline
 - [Reinforcement Learning Papers](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/tree/master#reinforcement-learning-papers)
 - [Open Source](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/tree/master#open-source)
@@ -162,12 +165,12 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
 ## Textbook
   - [Foundations_of_Machine_Learning](http://www.cs.nyu.edu/~mohri/mlbook/)
       - chapter 14: Reinforcement learning  
-   
   
 ## Misc
   - [A collection of Deep Learning resources](http://www.jeremydjacksonphd.com/category/deep-learning/)
   - [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/), from Andrej Karpathy' blog
       - policy gradient (very clear!)
+      - many useful link inside
   - [Guest Post (Part I): Demystifying Deep Reinforcement Learning](https://www.nervanasys.com/demystifying-deep-reinforcement-learning/)
   - [Reinforcement Learning and Control](http://cs229.stanford.edu/notes/cs229-notes12.pdf), lecture from Andrew Ng
       - basic reinforcement learning 
@@ -176,3 +179,5 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
       - briefly discuss some work done by deepmind
   - [What are the benefits of actor/critic framework in reinforcement learning?](https://www.quora.com/What-are-the-benefits-of-actor-critic-framework-in-reinforcement-learning)
       - Clearly expain the advantages of actor/critic 
+  - [Deep Reinforcement Learning: A Tutorial](https://gym.openai.com/docs/rl)
+      - It's good to be a kick-off for newbie in reinforcement learning 
