@@ -18,9 +18,15 @@ If you're a newbie in deep reinforcement learning, I suggest you to read the blo
 ***Mistakes teach us to clarify what we really want and how we want to live.*** That's the spirit of reinforcement 
 learning: learning from the mistakes. Let's be the explorer in reinforcement learning!
 
-- ***Episodic Exploration for Deep Deterministic Policies: An Application to StarCraft Micromanagement Tasks*** [[arXiv 2016]](http://arxiv.org/abs/1609.02993) [ONGOING]
-  - Nicolas Usunier, Gabriel Synnaeve, Zeming Lin, Soumith Chintala
-  - StarCraft task: control of multiple agents, low-level control, partially observable environment :point_right: extremely large state/action space
+- ***Recurrent Models of Visual Attention*** [[NIPS 2014]](https://arxiv.org/abs/1406.6247) 
+  - Volodymyr Mnih, Nicolas Heess, Alex Graves, Koray Kavukcuoglu
+  - Computationally expensive when dealing with large image
+  - Use the action control to attend part of image
+  - Can view as POMDP (partially observation markov decision process)
+  - The location network is a 2D-Gaussian distribution
+  - Action is stochastically drawn from the distribution of location network
+  - Reward can be task-dependent (this paper is used in classification)
+  - Use the policy gradient to optimize
 - ***Deterministic Policy Gradient Algorithms*** [[ICML 2014]](http://jmlr.org/proceedings/papers/v32/silver14.pdf)
   - D. Silver, G. Lever, N. Heess, T. Degris, D. Wierstra, M. Riedmiller
   - The deterministic policy gradient is just a special case for stochastic policy gradient
