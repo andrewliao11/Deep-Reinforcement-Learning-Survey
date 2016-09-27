@@ -20,9 +20,9 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
 
 - ***Recurrent Models of Visual Attention*** [[NIPS 2014]](https://arxiv.org/abs/1406.6247) 
   - Volodymyr Mnih, Nicolas Heess, Alex Graves, Koray Kavukcuoglu
-  - Computationally expensive when dealing with large image
-  - Use the action control to attend part of image
-  - Can view as POMDP (partially observation markov decision process)
+  - Motivation: computationally expensive when dealing with large image. Many attention methods computation cost is propotional to the image size.
+  - Use the action control to attend part of image (define a Gaussian, and use treat the location(mean of Gaussian) as action)
+  - Can be viewed as POMDP (partially observation markov decision process)
   - The location network is a 2D-Gaussian distribution
   - Action is stochastically drawn from the distribution of location network
   - Reward can be task-dependent (this paper is used in classification)
