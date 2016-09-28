@@ -6,7 +6,7 @@ Surely, any pull request or discussion are welcomed!
 If you're a newbie in deep reinforcement learning, I suggest you to read the blog post and open course first.
 
 ## Outline
-- [Reinforcement Learning Papers]https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/Reinforcement-Learning-Papers.md)
+- ***[Reinforcement Learning Papers](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/Reinforcement-Learning-Papers.md)***
 - [Open Source](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/Open-Source.md#open-source)
   - Python users
   - Lua users
