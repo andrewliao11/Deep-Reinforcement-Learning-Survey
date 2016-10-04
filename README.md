@@ -13,3 +13,6 @@ If you're a newbie in deep reinforcement learning, I suggest you to read the blo
 - [Courses](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/Open-Source.md#course)
 - [Textbook](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/Open-Source.md#textbook)
 - [Misc](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/Open-Source.md#misc)
+
+## [**Useful**] Learn Reinforcement Learning 
+:point_right: [dennybritz/reinforcement-learning](https://github.com/dennybritz/reinforcement-learning)
