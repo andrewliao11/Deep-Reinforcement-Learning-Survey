@@ -15,4 +15,5 @@ If you're a newbie in deep reinforcement learning, I suggest you to read the blo
 - [Misc](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/Open-Source.md#misc)
 
 ## [**Useful**] Learn Reinforcement Learning 
-:point_right: [dennybritz/reinforcement-learning](https://github.com/dennybritz/reinforcement-learning)
+:point_right: [dennybritz/reinforcement-learning](https://github.com/dennybritz/reinforcement-learning)   
+:point_right: [Daivd Silver's course about policy gradient](https://www.youtube.com/watch?v=KHZVXao4qXs)
