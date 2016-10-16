@@ -1,7 +1,15 @@
 # Reinforcement learning Papers
 ***Mistakes teach us to clarify what we really want and how we want to live.*** That's the spirit of reinforcement 
-learning: learning from the mistakes. Let's be the explorer in reinforcement learning!
+learning: learning from the mistakes. Let's be the explorer in reinforcement learning!	
 
+- ***High-Dimensional Continuous Control Using Generalized Advantage Estimation*** [[ICLR 2016]](https://arxiv.org/abs/1506.02438)
+	- John Schulman, Philipp Moritz, Sergey Levine, Michael Jordan, Pieter Abbeel
+	- In extremely high dimensional task(like continuous control in 3D environment), stability is a key point.
+	- Propose an effective variance reduction scheme for policy gradients, which called generalized advantage estimation (GAE)
+	-  Motivation of GAE: Supposed we have fixed length of steps, from eq.15,  we know that the bias of each advantage function is **k-dependent**. So, as k increases, the biased term becomes more ignorable, while the variance increases and vice versa. (if you found this concept is abstract, think of MC is unbiased but with high variance, while TD is biased, but with los variance)
+	-  ***λ*** is a new concept included in this paper. 
+		-  If λ = 0 (like eq.17), then we have low variance, and is biased
+		-  If λ = 1 (like eq.18), then we have high variance, and is unbased
 - ***Recurrent Models of Visual Attention*** [[NIPS 2014]](https://arxiv.org/abs/1406.6247) 
   - Volodymyr Mnih, Nicolas Heess, Alex Graves, Koray Kavukcuoglu
   - Motivation: computationally expensive when dealing with large image. Many attention methods computation cost is propotional to the image size.
