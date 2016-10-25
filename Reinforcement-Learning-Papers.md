@@ -2,6 +2,19 @@
 ***Mistakes teach us to clarify what we really want and how we want to live.*** That's the spirit of reinforcement 
 learning: learning from the mistakes. Let's be the explorer in reinforcement learning!	
 
+
+- ***Deep Reinforcement Learning with a Natural Language Action Space*** [[arXiv 2016]](Deep Reinforcement Learning with a Natural Language Action Space)
+	- Ji He, Jianshu Chen, Xiaodong He, Jianfeng Gao, Lihong Li, Li Deng, Mari Ostendorf
+	- Task: String of text :point_right: state, several strings of text :point_right: potential actions
+	- other
+- ***Language Understanding for Text-based Games Using Deep Reinforcement Learning*** [[NMNLP 2015]](https://arxiv.org/abs/1506.08941)
+	- Karthik Narasimhan, Tejas Kulkarni, Regina Barzilay
+	- Use natural language as state representation, and fixed action space (not output natural language in free-form :point_right: major restriction)
+		- :star: challenging part: the environment is not directly observable
+		- The task includes text interpretation and learning strategy build on the text interpretation 
+	- 	Use LSTM to interpret the state(in natural langiage form), and use DQN to select to corresponding action
+	-  Basically follow the [deepmind paper](http://www.nature.com/nature/journal/v518/n7540/full/nature14236.html). With experience replay and mini-batch update
+	-  Using tSNE for the represnetation analysis is really cool (fig. 5)
 - ***High-Dimensional Continuous Control Using Generalized Advantage Estimation*** [[ICLR 2016]](https://arxiv.org/abs/1506.02438)
 	- John Schulman, Philipp Moritz, Sergey Levine, Michael Jordan, Pieter Abbeel
 	- In extremely high dimensional task(like continuous control in 3D environment), stability is a key point.
