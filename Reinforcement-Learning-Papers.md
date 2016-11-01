@@ -3,10 +3,20 @@
 learning: learning from the mistakes. Let's be the explorer in reinforcement learning!	
 
 
-- ***Deep Reinforcement Learning with a Natural Language Action Space*** [[arXiv 2016]](Deep Reinforcement Learning with a Natural Language Action Space)
+- ***Deep Reinforcement Learning with a Natural Language Action Space*** [[ACL 2016]](Deep Reinforcement Learning with a Natural Language Action Space)
 	- Ji He, Jianshu Chen, Xiaodong He, Jianfeng Gao, Lihong Li, Li Deng, Mari Ostendorf
 	- Task: String of text :point_right: state, several strings of text :point_right: potential actions
 	- other
+- ***Imitation Learning with Recurrent Neural Networks***[[arXiv 2016]](https://arxiv.org/abs/1607.05241)
+	- Khanh Nguyen
+	- Aims to unify two sequence prediction network: learning to search(L2S) and recurrent neural network
+	- supervised recurrent neural entwork makes an independent prediction at each time step, which suffers seriously from **compounding errors** since the input observations correlate and thus violate the identically independent distributed assumption required by any supervised approach. 
+	-  L2S algorithms reduce a sequential prediction problem to learning a policy to traverse in a search space with minimum cost. It garantees that compounding errors grow linearly with trajectory lengths.
+	-  Map the RNN components to L2S (take sequence2sequence for example): 
+		-  hidden representation :point_right: St
+		-  decoded word :point_right: At 
+		-  encoded word :point_right: Xt (new information for the environment)
+		-  The non-linear gates in RNN are served to be the trainsition function
 - ***Language Understanding for Text-based Games Using Deep Reinforcement Learning*** [[NMNLP 2015]](https://arxiv.org/abs/1506.08941)
 	- Karthik Narasimhan, Tejas Kulkarni, Regina Barzilay
 	- Use natural language as state representation, and fixed action space (not output natural language in free-form :point_right: major restriction)
@@ -15,7 +25,7 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
 	- 	Use LSTM to interpret the state(in natural langiage form), and use DQN to select to corresponding action
 	-  Basically follow the [deepmind paper](http://www.nature.com/nature/journal/v518/n7540/full/nature14236.html). With experience replay and mini-batch update
 	-  Using tSNE for the represnetation analysis is really cool (fig. 5)
-- ***High-Dimensional Continuous Control Using Generalized Advantage Estimation*** [[ICLR 2016]](https://arxiv.org/abs/1506.02438)
+- :star: ***High-Dimensional Continuous Control Using Generalized Advantage Estimation*** [[ICLR 2016]](https://arxiv.org/abs/1506.02438)
 	- John Schulman, Philipp Moritz, Sergey Levine, Michael Jordan, Pieter Abbeel
 	- In extremely high dimensional task(like continuous control in 3D environment), stability is a key point.
 	- Propose an effective variance reduction scheme for policy gradients, which called generalized advantage estimation (GAE)
@@ -23,7 +33,7 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
 	-  ***λ*** is a new concept included in this paper. 
 		-  If λ = 0 (like eq.17), then we have low variance, and is biased
 		-  If λ = 1 (like eq.18), then we have high variance, and is unbased
-- ***Recurrent Models of Visual Attention*** [[NIPS 2014]](https://arxiv.org/abs/1406.6247) 
+- :star: ***Recurrent Models of Visual Attention*** [[NIPS 2014]](https://arxiv.org/abs/1406.6247) 
   - Volodymyr Mnih, Nicolas Heess, Alex Graves, Koray Kavukcuoglu
   - Motivation: computationally expensive when dealing with large image. Many attention methods computation cost is propotional to the image size.
   - Use the action control to attend part of image (define a Gaussian, and use treat the location(mean of Gaussian) as action)
@@ -65,7 +75,7 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
   - Hado van Hasselt, Arthur Guez, David Silver 
   - Deal with overestimation of Q-values
   - Separate action-select-Q and predict-Q 
-- ***Asynchronous Methods for Deep Reinforcement Learning*** [[ICML 2016]](https://arxiv.org/abs/1602.01783)
+- :star: ***Asynchronous Methods for Deep Reinforcement Learning*** [[ICML 2016]](https://arxiv.org/abs/1602.01783)
   - Volodymyr Mnih, Adrià Puigdomènech Badia, Mehdi Mirza, Alex Graves, Timothy P. Lillicrap, Tim Harley, 
       David Silver, Koray Kavukcuoglu 
   - On-policy updates
@@ -73,12 +83,12 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
   - [Asynchronous SGD](https://cxwangyi.wordpress.com/2013/04/09/why-asynchronous-sgd-works-better-than-its-synchronous-counterpart/), 
       explain what "asynchronous" means. 
   - [Tuning Deep Learning Episode 1: DeepMind's A3C in Torch](http://www.allinea.com/blog/201607/tuning-deep-learning-episode-1-deepminds-a3c-torch)
-- ***Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection*** 
+- :star: ***Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection*** 
   [[arXiv 2016]](http://arxiv.org/abs/1603.02199)
   - Sergey Levine, Peter Pastor, Alex Krizhevsky, Deirdre Quillen
   - [Deep Learning for Robots: Learning from Large-Scale Interaction]
       (https://research.googleblog.com/2016/03/deep-learning-for-robots-learning-from.html)
-- ***Dueling Network Architectures for Deep Reinforcement Learning*** [[ICML 2016]](http://arxiv.org/abs/1511.06581)
+- :star: ***Dueling Network Architectures for Deep Reinforcement Learning*** [[ICML 2016]](http://arxiv.org/abs/1511.06581)
   - Ziyu Wang, Tom Schaul, Matteo Hessel, Hado van Hasselt, Marc Lanctot, Nando de Freitas
   - Best Paper in ICML 2016
   - Pose the question: Is conventional CNN suitable for RL tasks?
@@ -90,7 +100,7 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
   - Solving problem concerning to partial observability
   - Propose mincraft task
   - Memory Q-Network (MQN), Recurrent Memory Q-Network (RMQN), and Feedback Recurrent Memory Q-Network (FRMQN)
-- ***Continuous Control With Deep Reinforcement Learning*** [[ICLR 2016]](http://arxiv.org/abs/1509.02971)
+- :star: ***Continuous Control With Deep Reinforcement Learning*** [[ICLR 2016]](http://arxiv.org/abs/1509.02971)
   - Timothy P. Lillicrap, Jonathan J. Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver,
      Daan Wierstra
   - Solves the continuous control task, and avoids the curse of **dimension**
@@ -99,7 +109,7 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
   - The different components of the observation may have different physical units and the ranges may vary 
       across environments. => solve by batch normalization
   - For exploration, adding the noise to the actor policy: µ0(st) = µ(st|θt µ) + N
-- ***Mastering the game of Go with deep neural networks and tree search*** [[Nature 2016]](https://vk.com/doc-44016343_437229031?dl=56ce06e325d42fbc72)
+- :star::star: ***Mastering the game of Go with deep neural networks and tree search*** [[Nature 2016]](https://vk.com/doc-44016343_437229031?dl=56ce06e325d42fbc72)
   - David Silver, Aja Huang 
   - First stage: supervised learning policy network, including rollout policy and SL policy network(learn the knowledge from human experts)
     -  Rollout policy is used for predicting **fast** but relatively inaccurate decision
@@ -110,7 +120,7 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
     - Expansion: after L steps, create a new child
     - Evaluation: evaluated by the mixture of value network and simulated rollout
     - Backup: Calculate and store the Q(s,a), N(s,a), which is used in Selection
-- ***Human-level control through deep reinforcement learning***, [[Nature 2015]](http://home.uchicago.edu/~arij/journalclub/papers/2015_Mnih_et_al.pdf)
+- :star::star: ***Human-level control through deep reinforcement learning***, [[Nature 2015]](http://home.uchicago.edu/~arij/journalclub/papers/2015_Mnih_et_al.pdf)
   - Most optimization algorithms assume that the samples are independently and identically distributed,
       while for reinforcement learning, the data is a sequence of action, which breaks the assumption.
   - Strong correlation btn data => break the assumption of stochastic gradient-based algorithms(re-sampling)
@@ -125,7 +135,7 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
   (http://arxiv.org/abs/1512.04455)
   - Nicolas Heess, Jonathan J Hunt, Timothy P Lillicrap, David Silver
   - Use RNN to solve partially-observed problem  
-- ***Action-Conditional Video Prediction using Deep Networks in Atari Games*** [[NIPS 2015]](http://arxiv.org/abs/1507.08750)
+- :star: ***Action-Conditional Video Prediction using Deep Networks in Atari Games*** [[NIPS 2015]](http://arxiv.org/abs/1507.08750)
   - Junhyuk Oh, Xiaoxiao Guo, Honglak Lee, Richard Lewis, Satinder Singh, [[project page]](https://sites.google.com/a/umich.edu/junhyuk-oh/action-conditional-video-prediction)
   - Long-term predictions on Atari games conditional on the action
   - Using the predicted frame (more informative) to replace the exploration to improve the model-free controller
