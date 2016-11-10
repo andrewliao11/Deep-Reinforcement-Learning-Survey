@@ -2,7 +2,15 @@
 ***Mistakes teach us to clarify what we really want and how we want to live.*** That's the spirit of reinforcement 
 learning: learning from the mistakes. Let's be the explorer in reinforcement learning!	
 
-
+- ***Algorithms for Inverse Reinforcement Learning*** [[ICML 2000]](http://www.andrewng.org/portfolio/algorithms-for-inverse-reinforcement-learning/)
+	- Andrew Y. Ng, Stuart Russell
+	- In examing animal and human behavior we must consider the reward function as an unknown to be ascertained through empirical investigation.
+	- Recover the expert's reward function and this to generate desired behavior
+	- Use the eq.4 (see the derivation in the paper, which is quite clear)
+	- Avoid reward function ambiguity by adding margin λ|R|
+	- Use feature representation for the reward function
+	- Experiment part shows IRL is soluble at least in **moderate** discrete, continuous space
+	- Reference: [Inverse Reinforcement Learning](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa12/slides/inverseRL.pdf), by Pieter Abbeel.
 - ***Deep Reinforcement Learning with a Natural Language Action Space*** [[ACL 2016]](Deep Reinforcement Learning with a Natural Language Action Space)
 	- Ji He, Jianshu Chen, Xiaodong He, Jianfeng Gao, Lihong Li, Li Deng, Mari Ostendorf
 	- Task: String of text :point_right: state, several strings of text :point_right: potential actions
