@@ -2,6 +2,14 @@
 ***Mistakes teach us to clarify what we really want and how we want to live.*** That's the spirit of reinforcement 
 learning: learning from the mistakes. Let's be the explorer in reinforcement learning!	
 
+- ***Apprenticeship Learning via Inverse Reinforcement Learning*** [[ICML 2004]](http://dl.acm.org/citation.cfm?id=1015430)
+	- Pieter Abbeel, Andrew Y. Ng
+	- The first time when apprenticeship is proposed
+	- Most of these methods try to directly mimic the demonstrator by applying a **supervised learning** algorithm to learn a direct mapping from the states to the actions. :point_right: only suitable for the case that the taskis to mimic the expert’s trajectory
+	- Reward function, rather than the policy or the value function, is the most succinct, robust, and transferable definition of the task,
+	- Basic concept: use the inverse reinforcement learning to recover the reward function from the expert and use the that reward function to find the optimal policy.
+	- Actually, Apprenticeship Learning doesn't need to find the correct reward function. Instead, it use the predicted reward function to find the policy that is similar to expert.
+	- From the experiments, the apprenticeship learning need less sample trajectory than action mimic.
 - ***Algorithms for Inverse Reinforcement Learning*** [[ICML 2000]](http://www.andrewng.org/portfolio/algorithms-for-inverse-reinforcement-learning/)
 	- Andrew Y. Ng, Stuart Russell
 	- In examing animal and human behavior we must consider the reward function as an unknown to be ascertained through empirical investigation.
