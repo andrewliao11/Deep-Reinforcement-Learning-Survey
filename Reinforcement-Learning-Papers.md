@@ -6,6 +6,8 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
 	- John Schulman, Nicolas Heess, Theophane Weber, Pieter Abbeel
 - ***Maximum Entropy Inverse Reinforcement Learning*** [[AAAI 2008]](https://www.cs.uic.edu/pub/Ziebart/Publications/maxentirl-bziebart.pdf)
 	- Brian D. Ziebart, Andrew Maas, J. Andrew Bagnell, and Anind K. Dey
+	- Close to the real case :point_right: the suboptimal case, optimal case can't cover all the state space, and alleviate the reward function ambiguity
+	- basic concept: plans with equivalent rewards have equal probabilities, and plans with higher rewards are exponentially more preferred.
 - ***Reinforcement Learning with Unsupervised Auxiliary Tasks*** [[arXiv 2016]](https://128.84.21.199/abs/1611.05397)
 	- Max Jaderberg, Volodymyr Mnih, Wojciech Marian Czarnecki, Tom Schaul, Joel Z Leibo, David Silver, Koray Kavukcuoglu
 	- Introduce an agent that also maximises many other **pseudo-reward** functions simultaneously by reinforcement learning
@@ -29,6 +31,7 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
 	- Use the eq.4 (see the derivation in the paper, which is quite clear)
 	- Avoid reward function ambiguity by adding margin λ|R|
 	- Use feature representation for the reward function
+		- Since the reward function is assumed to be the linear combination of features, this implies that **if two policy with similar accumulated feature expectation, the accumulated reward is similar**
 	- Experiment part shows IRL is soluble at least in **moderate** discrete, continuous space
 	- Reference: [Inverse Reinforcement Learning](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa12/slides/inverseRL.pdf), by Pieter Abbeel.
 - ***Deep Reinforcement Learning with a Natural Language Action Space*** [[ACL 2016]](Deep Reinforcement Learning with a Natural Language Action Space)
