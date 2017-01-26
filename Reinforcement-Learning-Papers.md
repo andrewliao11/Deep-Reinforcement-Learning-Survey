@@ -2,6 +2,7 @@
 ***Mistakes teach us to clarify what we really want and how we want to live.*** That's the spirit of reinforcement 
 learning: learning from the mistakes. Let's be the explorer in reinforcement learning!	
 
+
 - ***Gradient Estimation Using Stochastic Computation Graphs*** [[NIPS 2015]](https://arxiv.org/abs/1506.05254)
 	- John Schulman, Nicolas Heess, Theophane Weber, Pieter Abbeel
 - ***Maximum Entropy Inverse Reinforcement Learning*** [[AAAI 2008]](https://www.cs.uic.edu/pub/Ziebart/Publications/maxentirl-bziebart.pdf)
@@ -48,7 +49,7 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
 		-  decoded word :point_right: At 
 		-  encoded word :point_right: Xt (new information for the environment)
 		-  The non-linear gates in RNN are served to be the trainsition function
-- ***Language Understanding for Text-based Games Using Deep Reinforcement Learning*** [[NMNLP 2015]](https://arxiv.org/abs/1506.08941)
+- ***Language Understanding for Text-based Games Using Deep Reinforcement Learning*** [[EMNLP 2015]](https://arxiv.org/abs/1506.08941)
 	- Karthik Narasimhan, Tejas Kulkarni, Regina Barzilay
 	- Use natural language as state representation, and fixed action space (not output natural language in free-form :point_right: major restriction)
 		- :star: challenging part: the environment is not directly observable
@@ -90,18 +91,6 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
   -  Use transition’s TD error δ, which indicates how **"surprising" or "unexpected" the transition is**
   -  Alleviate the loss of diversity with stochastic prioritization, and introduce bias
   -  Stochastic Prioritization: mixture of pure greedy prioritization and uniform random sampling
-- ***Deep Successor Reinforcement Learning*** [[arXiv 2016]](https://arxiv.org/abs/1606.02396)
-  - Tejas D. Kulkarni, Ardavan Saeedi, Simanta Gautam, Samuel J. Gershman
-  - Successor Representation(SR): decomposed the value into successor map and reward predictor (the definition of the components in successor representation should be referred to section 3.2)
-  - Advantage1: increase the sensitivityof the environment changes, since it records the immediate reward in each 
-    state. In DQN, we only record(or predict) the accumulated reward, so the sudden change of reward will be diluted.
-    However, the SR mehtod records the reward in each state: R(s), which enable it to be more sensitive to the change
-    of environment.
-  - Advantage2: able to extract the bottleneck states(subgoals). Since we predict the successor map (the predicted
-      visit count), the state with higher visit count is likely to be bottleneck 
-  - Section 3.3 is a little tricky. The m_sa represents the **feature of the future occupancy**, so m_sa×W becomes 
-      the future accumulated reward (Q-value). The ∅(s)×W is the **immediate reward**. Therefore, 
-      m_sa = φ(s) + γE[m_st+1a'] :point_right: eq.6
 - ***Deep Reinforcement Learning with Double Q-learning*** [[AAAI 2016]](http://arxiv.org/abs/1509.06461)
   - Hado van Hasselt, Arthur Guez, David Silver 
   - Deal with overestimation of Q-values
@@ -140,24 +129,6 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
   - The different components of the observation may have different physical units and the ranges may vary 
       across environments. => solve by batch normalization
   - For exploration, adding the noise to the actor policy: µ0(st) = µ(st|θt µ) + N
-- :star::star: ***Mastering the game of Go with deep neural networks and tree search*** [[Nature 2016]](https://vk.com/doc-44016343_437229031?dl=56ce06e325d42fbc72)
-  - David Silver, Aja Huang 
-  - First stage: supervised learning policy network, including rollout policy and SL policy network(learn the knowledge from human experts)
-    -  Rollout policy is used for predicting **fast** but relatively inaccurate decision
-    -  SL policy network is used for initialization of RL policy network(improved by policy gradient) 
-  - To prevent overfit, auto-generate the sample from self-play(half) and train with the KGS dataset(half)
-  - Use Monte Carlo tree search with policy network and value network. To understand the MCTS more, plz refer to [here](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search#Principle_of_operation)
-    - Selection: select the most promising action depends on Q+u(P) --> depth L
-    - Expansion: after L steps, create a new child
-    - Evaluation: evaluated by the mixture of value network and simulated rollout
-    - Backup: Calculate and store the Q(s,a), N(s,a), which is used in Selection
-- :star::star: ***Human-level control through deep reinforcement learning***, [[Nature 2015]](http://home.uchicago.edu/~arij/journalclub/papers/2015_Mnih_et_al.pdf)
-  - Most optimization algorithms assume that the samples are independently and identically distributed,
-      while for reinforcement learning, the data is a sequence of action, which breaks the assumption.
-  - Strong correlation btn data => break the assumption of stochastic gradient-based algorithms(re-sampling)
-  - Experience replay(off-policy)
-  - Iterative update Q-value
-  - [Source code [Torch]](https://sites.google.com/a/deepmind.com/dqn)
 - ***Active Object Localization with Deep Reinforcement Learning*** [[ICCV 2015]](http://arxiv.org/abs/1511.06015)
   - Juan C. Caicedo, Svetlana Lazebnik
   - Agent learns to deform a bounding box using simple transformation action(map the object detection task to RL)   
@@ -166,15 +137,6 @@ learning: learning from the mistakes. Let's be the explorer in reinforcement lea
   (http://arxiv.org/abs/1512.04455)
   - Nicolas Heess, Jonathan J Hunt, Timothy P Lillicrap, David Silver
   - Use RNN to solve partially-observed problem  
-- :star: ***Action-Conditional Video Prediction using Deep Networks in Atari Games*** [[NIPS 2015]](http://arxiv.org/abs/1507.08750)
-  - Junhyuk Oh, Xiaoxiao Guo, Honglak Lee, Richard Lewis, Satinder Singh, [[project page]](https://sites.google.com/a/umich.edu/junhyuk-oh/action-conditional-video-prediction)
-  - Long-term predictions on Atari games conditional on the action
-  - Using the predicted frame (more informative) to replace the exploration to improve the model-free controller
-  - Multiplicative Action-Conditional Transformation: if use ont-hot to represent the action :point_right: each matrix correspond to a transformation matrix
-  - Learning with Multi-Step Prediction (minimize the k steps accumulated error)
-  - Section 4.2 is really promising! 
-    - replace the real frame by predicted frames
-    - use prediction model to help agent explore the state visited least
 - ***Playing Atari with Deep Reinforcement Learning*** [[NIPS 2013 Deep Learning Workshop]](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
   - Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves Ioannis Antonoglou, Daan Wierstra  
   
