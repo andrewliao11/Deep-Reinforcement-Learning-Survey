@@ -6,7 +6,13 @@ Surely, any pull request or discussion are welcomed!
 If you're a newbie in deep reinforcement learning, I suggest you to read the blog post and open course first.
 
 ## Outline
-- ***[Reinforcement Learning Papers](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/Reinforcement-Learning-Papers.md)***
+- Reinforcement Learning Papers
+  - [Human-level control through deep reinforcement learning](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Human-level%20control%20through%20deep%20reinforcement%20learning.md)
+  - [Mastering the game of Go with deep neural networks and tree search](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Mastering%20the%20game%20of%20Go%20with%20deep%20neural%20networks%20and%20tree%20search.md)
+  - [Deep Successor Reinforcement Learning](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Deep%20Successor%20Reinforcement%20Learning.md)
+  - [Action-Conditional Video Prediction using Deep Networks in Atari Games](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Action-Conditional%20Video%20Prediction%20using%20Deep%20Networks%20in%20Atari%20Games.md)
+  - [Policy Distillation](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Policy%20Distillation.md)
+  - [others](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/Reinforcement-Learning-Papers.md)
 - [Open Source](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/Open-Source.md#open-source)
   - Python users
   - Lua users
@@ -16,4 +22,5 @@ If you're a newbie in deep reinforcement learning, I suggest you to read the blo
 
 ## [**Useful**] Learn Reinforcement Learning 
 :point_right: [dennybritz/reinforcement-learning](https://github.com/dennybritz/reinforcement-learning)   
-:point_right: [Daivd Silver's course about policy gradient](https://www.youtube.com/watch?v=KHZVXao4qXs)
+:point_right: [Daivd Silver's course about policy gradient](https://www.youtube.com/watch?v=KHZVXao4qXs)    
+:point_right: [Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/)
