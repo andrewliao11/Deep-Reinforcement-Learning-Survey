@@ -15,3 +15,6 @@ the paper works on solving Tetris with modified cross entropy method. original C
 
 ## note
 - can view the noise apply to std as ensure enough exploration
+
+## implementation
+I have a simple implementation on CartPole, [link](https://gist.github.com/andrewliao11/d52125b52f76a4af73433e1cf8405a8f)
