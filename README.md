@@ -14,6 +14,7 @@ If you're a newbie in deep reinforcement learning, I suggest you to read the blo
   - [Policy Distillation](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Policy%20Distillation.md)
   - [Learning Tetris Using the Noisy Cross-Entropy Method](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Learning%20Tetris%20Using%20the%20Noisy%20Cross-Entropy%20Method.md), with **code**
   - [Continuous Deep Q-Learning with Model-based Acceleration](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Continuous%20Deep%20Q-Learning%20with%20Model-based%20Acceleration.md)
+  - [Value Iteration Networks](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Value%20Iteration%20Networks.md)
   - [others](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/Reinforcement-Learning-Papers.md)
 - [Open Source](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/Open-Source.md#open-source)
   - Python users
