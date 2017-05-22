@@ -19,6 +19,5 @@ unseen combination[(R_2,T_2)]
 - really cool ideas and worth exploring more
 - lack of implementation details 
 - the authors choose a good environment to show off their paper (from easy to difficult)
-- in QA task, program generator matters a lot! In this [Modular Multitask Reinforcement Learning with Policy Sketches]
-(https://arxiv.org/abs/1611.01796), they use human-defined policy sketch. In the near future(maybe nips2017), we can expect 
+- in QA task, program generator matters a lot! In this [Modular Multitask Reinforcement Learning with Policy Sketches](https://arxiv.org/abs/1611.01796), they use human-defined policy sketch. In the near future(maybe nips2017), we can expect 
 someone doing modular RL with program generator jointly trained.
