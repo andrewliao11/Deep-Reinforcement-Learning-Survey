@@ -15,7 +15,8 @@ If you're a newbie in deep reinforcement learning, I suggest you to read the blo
   - [Learning Tetris Using the Noisy Cross-Entropy Method](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Learning%20Tetris%20Using%20the%20Noisy%20Cross-Entropy%20Method.md), with **code**
   - [Continuous Deep Q-Learning with Model-based Acceleration](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Continuous%20Deep%20Q-Learning%20with%20Model-based%20Acceleration.md)
   - [Value Iteration Networks](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Value%20Iteration%20Networks.md)
-  - [Learning Modular Neural Network Policies for Multi-Task and Multi-Robot Transfer](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Learning%20Modular%20Neural%20Network%20Policies%20for%20Multi-Task%20and%20Multi-Robot%20Transfer.md) :fire: New!
+  - [Learning Modular Neural Network Policies for Multi-Task and Multi-Robot Transfer](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Learning%20Modular%20Neural%20Network%20Policies%20for%20Multi-Task%20and%20Multi-Robot%20Transfer.md) 
+  - [Stochastic Neural Network For Hierarchical Reinforcement Learning](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Stochastic%20Neural%20Network%20For%20Hierarchical%20Reinforcement%20Learning.md):fire: New!
   - [others](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/Reinforcement-Learning-Papers.md)
 - [Open Source](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/Open-Source.md#open-source)
   - Python users
