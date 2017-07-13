@@ -12,7 +12,7 @@ Hope you will like it!
   - [TensorLayer](https://github.com/zsdonghao/tensorlayer)
     - Built on the top of Google TensorFlow
   - [rllab](https://github.com/rllab/rllab)
-    - Fully compatible with OpenAI 
+    - Fully compatible with gym 
     - Continuous control tasks 
     - Nice to implement new algorothms
     - [Benchmarking Deep Reinforcement Learning for Continuous Control](https://arxiv.org/abs/1604.06778)
@@ -24,7 +24,9 @@ Hope you will like it!
   - [Deep Reinforcement Learning in TensorFlow](https://github.com/carpedm20/deep-rl-tensorflow)
     - Implemented by @carpedm20
     - Having some basic reinforcement algorothms
- 
+  - [OpenAI baselines](https://github.com/openai/baselines)
+    - high-quality RL code(highly recommend)
+    - provide pretrained poicies
  
 ## :flashlight: Lua users[Torch]
   - [rltorch](https://github.com/ludc/rltorch), basic reinforcement learning package
