@@ -17,3 +17,7 @@ algorithms, and both get a bunch of improvement.
 or any other analysis.
 -  Also, the author mentions that the propose variant works well in Asterix and Freeway(in sec.5). However, I wonder 
 that what this might imply. (better for games that need more exploration? It has to be confirmed by visualizing the agent)
+
+# non-official source code
+- Tensorflow for [NoisyNet-DQN](https://github.com/andrewliao11/NoisyNet-DQN)
+- Pytorch for [NoisyNet-A3C(LSTM)](https://github.com/Kaixhin/NoisyNet-A3C)
