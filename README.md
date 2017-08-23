@@ -17,7 +17,8 @@ If you're a newbie in deep reinforcement learning, I suggest you to read the blo
   - [Value Iteration Networks](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Value%20Iteration%20Networks.md)
   - [Learning Modular Neural Network Policies for Multi-Task and Multi-Robot Transfer](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Learning%20Modular%20Neural%20Network%20Policies%20for%20Multi-Task%20and%20Multi-Robot%20Transfer.md) 
   - [Stochastic Neural Network For Hierarchical Reinforcement Learning](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Stochastic%20Neural%20Network%20For%20Hierarchical%20Reinforcement%20Learning.md)
-  - [Noisy Networks for Exploration](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Noisy%20Networks%20for%20Exploration.md) :fire: New!
+  - [Noisy Networks for Exploration](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Noisy%20Networks%20for%20Exploration.md) 
+  - [Improving Stochastic Policy Gradients in Continuous Control with Deep Reinforcement Learning using the Beta Distribution](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Improving%20Stochastic%20Policy%20Gradients%20in%20Continuous%20Control%20with%20Deep%20Reinforcement%20Learning%20using%20the%20Beta%20Distribution.md) :fire: New!
   - [others](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/Reinforcement-Learning-Papers.md)
 - [Open Source](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/Open-Source.md#open-source)
   - Python users
