@@ -7,8 +7,7 @@ accepted in ICML2017
 is that it provides a simple form (mean and sigma) and allow as to reparametrization. 
 - However, the gaussian distribution has some drawbacks:
   - it has nonzero probability for any action values (introduce bias if we clip the action values due to the controller limitation)
-  - the variance of gaussian distribution is inverse to the \sigma^2. (as the gaussian distribution gets more deterministic the 
-  variance become higher and higher)
+  - Using gaussian distribution, the variance of the policy gradient estimator is inverse to the \sigma^2. (as the gaussian distribution gets more deterministic the variance become higher and higher)
 - [Beta distribution](https://en.wikipedia.org/wiki/Beta_distribution)(beta-dist) comes to rescue:
   - also provide simeple form (\alpha, and \beta)
   - naturally has a **bounded** probability distribution
