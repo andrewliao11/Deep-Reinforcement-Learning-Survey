@@ -22,6 +22,7 @@ If you're a newbie in deep reinforcement learning, I suggest you to read the blo
   - [High-Dimensional Continuous Control Using Generalized Advantage Estimation](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/High-Dimensional%20Continuous%20Control%20Using%20Generalized%20Advantage%20Estimation.md) 
   - [Generalizing Skills with Semi-Supervised Reinforcement Learning](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Generalizing%20Skills%20with%20Semi-Supervised%20Reinforcement%20Learning.md)
   - [Unsupervised Perceptual Rewards for Imitation Learning](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Unsupervised%20Perceptual%20Rewards%20for%20Imitation%20Learning.md)
+  - [Towards Deep Symbolic Reinforcement Learning](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/papers/Towards%20Deep%20Symbolic%20Reinforcement%20Learning.md)
   - [others](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/Reinforcement-Learning-Papers.md)
 - [Open Source](https://github.com/andrewliao11/Deep-Reinforcement-Learning-Survey/blob/master/Open-Source.md#open-source)
   - Python users
