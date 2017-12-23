@@ -1,6 +1,6 @@
 # Towards Deep Symbolic Reinforcement Learning
 
-**disclaimers: this paper is just a workshop paper in DRL at NIPS2016**
+**disclaimers: this paper is a workshop paper in DRL at NIPS2016**
 
 tldr; symbolize the data and do RL for interpretability, and potentially generalizability. 
 
